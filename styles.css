@@ -14,12 +14,20 @@ h1 {
     font-size: 20px;
 }
 
+#input-output {
+    width: 100%;
+    text-align: right;
+    font-size: 30px;
+    margin: auto 5px;
+    overflow-y: hidden;
+}
+
 #calculator {
     width: 25%;
     margin: 50px auto;
     background: #b9b9b9;
     padding: 20px;
-    height: 350px;
+    height: 380px;
     border-radius: 5px;
 }
 
@@ -27,14 +35,16 @@ h1 {
     height: 40px;
     border: 1px solid #a8a8a8;
     background-color: white;
+    display: flex;
+    align-items: center;
 }
 
 #calculator-body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     justify-items: center;
     align-items: center;
     height: 80%;
-    margin-top: 19px;
+    margin-top: 26px;
 }
