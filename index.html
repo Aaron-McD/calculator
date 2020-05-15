@@ -8,24 +8,26 @@
     </head>
     <body>
         <h1>Calulator</h1>
-        <main>
-            <input type="text" id="calculation">
-            <button id="equals">=</button>
-            <button id="add">+</button>
-            <button id="subtract">-</button>
-            <button id="divide">&#247</button>
-            <button id="multiply">x</button>
-            <button id="clear">cls</button>
-            <button class="number-button">1</button>
-            <button class="number-button">2</button>
-            <button class="number-button">3</button>
-            <button class="number-button">4</button>
-            <button class="number-button">5</button>
-            <button class="number-button">6</button>
-            <button class="number-button">7</button>
-            <button class="number-button">8</button>
-            <button class="number-button">9</button>
-            <button class="number-button">0</button>
+        <main id="calculator">
+            <div id="calculation-area"></div>
+            <div id="calculator-body">
+                <button class="calculator-button" id="clear">cls</button>
+                <button class="calculator-button" id="subtract">-</button>
+                <button class="calculator-button" id="divide">&#247</button>
+                <button class="calculator-button" id="equals">=</button>
+                <button class="number-button calculator-button">1</button>
+                <button class="number-button calculator-button">2</button>
+                <button class="number-button calculator-button">3</button>
+                <button class="calculator-button" id="multiply">&#215</button>
+                <button class="number-button calculator-button">4</button>
+                <button class="number-button calculator-button">5</button>
+                <button class="number-button calculator-button">6</button>
+                <button class="calculator-button" id="add">+</button>
+                <button class="number-button calculator-button">7</button>
+                <button class="number-button calculator-button">8</button>
+                <button class="number-button calculator-button">9</button>
+                <button class="number-button calculator-button">0</button>
+            </div>  
         </main>
     </body>
     <script src="scripts.js"></script>
